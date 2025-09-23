@@ -38,11 +38,11 @@ export const HowItWorksSection = () => {
                 <div className="w-20 h-20 bg-gradient-to-br from-primary-coral to-accent-teal rounded-2xl flex items-center justify-center mx-auto shadow-lg group-hover:scale-110 transition-transform duration-300">
                   <step.icon className="w-10 h-10 text-white" />
                 </div>
-                {index < steps.length - 1 && (
+                {/* {index < steps.length - 1 && (
                   <div className="hidden md:block absolute top-10 left-20 w-full">
                     <div className="h-0.5 bg-gradient-to-r from-primary-coral to-accent-teal"></div>
                   </div>
-                )}
+                )} */}
               </div>
               
               <h3 className="text-xl font-semibold text-foreground mb-2">

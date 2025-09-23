@@ -24,7 +24,7 @@ export const HeroSection = () => {
             </p>
             
             <div className="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start">
-              <Button variant="hero" size="xl" className="group">
+              {/* <Button variant="hero" size="xl" className="group">
                 Join the waitlist
                 <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform" />
               </Button>
@@ -32,7 +32,7 @@ export const HeroSection = () => {
               <Button variant="outlined" size="xl" className="group">
                 <Play className="w-5 h-5 mr-2" />
                 See how it works
-              </Button>
+              </Button> */}
             </div>
             
             <div className="mt-8 flex items-center justify-center lg:justify-start gap-6 text-sm text-muted-foreground">

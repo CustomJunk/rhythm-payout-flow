@@ -17,11 +17,11 @@ export const ScreenshotsSection = () => {
           {/* Screenshots Container */}
           <div className="relative">
             <div className="absolute -inset-4 bg-gradient-to-r from-primary-coral/20 to-accent-teal/20 rounded-3xl blur-xl"></div>
-            <img
+            {/* <img
               src={appScreenshots}
               alt="DanceBook app screenshots showing booking flow, trainer dashboard, and payment confirmation"
               className="relative w-full rounded-2xl shadow-2xl"
-            />
+            /> */}
           </div>
           
           {/* Feature callouts */}

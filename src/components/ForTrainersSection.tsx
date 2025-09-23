@@ -63,10 +63,10 @@ export const ForTrainersSection = () => {
               ))}
             </div>
             
-            <Button variant="waitlist" size="lg" className="group">
+            {/* <Button variant="waitlist" size="lg" className="group">
               Become a trainer
               <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform" />
-            </Button>
+            </Button> */}
           </div>
           
           {/* Stats Card */}
