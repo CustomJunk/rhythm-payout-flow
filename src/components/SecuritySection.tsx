@@ -25,13 +25,13 @@ const securityFeatures = [
 
 export const SecuritySection = () => {
   return (
-    <section className="py-20 bg-foreground text-background">
+    <section className="py-20 bg-background border-y border-border">
       <div className="container mx-auto px-6">
         <div className="text-center mb-16">
-          <h2 className="text-4xl md:text-5xl font-bold mb-6">
+          <h2 className="text-4xl md:text-5xl font-bold mb-6 text-foreground">
             Your security is our priority
           </h2>
-          <p className="text-xl text-background/70 max-w-3xl mx-auto">
+          <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
             Enterprise-grade security protecting your business and your clients
           </p>
         </div>
@@ -39,13 +39,13 @@ export const SecuritySection = () => {
         <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
           {securityFeatures.map((feature, index) => (
             <div key={index} className="text-center">
-              <div className="w-16 h-16 bg-background text-foreground rounded-full flex items-center justify-center mx-auto mb-6">
+              <div className="w-16 h-16 bg-background border-2 border-foreground text-foreground rounded-full flex items-center justify-center mx-auto mb-6">
                 <feature.icon className="w-8 h-8" />
               </div>
-              <h3 className="text-xl font-bold mb-3">
+              <h3 className="text-xl font-bold mb-3 text-foreground">
                 {feature.title}
               </h3>
-              <p className="text-background/70">
+              <p className="text-muted-foreground">
                 {feature.description}
               </p>
             </div>
