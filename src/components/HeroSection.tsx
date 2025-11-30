@@ -28,7 +28,7 @@ export const HeroSection = () => {
           
           {/* Hero Image */}
           <div className="relative flex justify-center lg:justify-end">
-            <div className="relative max-w-sm lg:max-w-md">
+            <div className="relative max-w-xs lg:max-w-sm">
               <img
                 src={heroImage}
                 alt="MoveX mobile app interface showing lesson booking calendar"
