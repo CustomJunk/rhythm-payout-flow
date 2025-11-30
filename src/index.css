@@ -8,117 +8,51 @@
 
 @layer base {
   :root {
-    /* Brand Colors - Coral & Teal Premium Palette */
-    --primary-coral: 14 91% 64%;
-    --primary-coral-light: 14 91% 74%;
-    --primary-coral-dark: 14 91% 54%;
-    
-    --accent-teal: 174 72% 56%;
-    --accent-teal-light: 174 72% 66%;
-    --accent-teal-dark: 174 72% 46%;
-    
-    /* Core System Colors */
     --background: 0 0% 100%;
-    --foreground: 223 30% 9%;
-    
+    --foreground: 0 0% 0%;
     --surface: 0 0% 98%;
-    --surface-secondary: 210 40% 96%;
+    --surface-secondary: 0 0% 95%;
     
-    --card: 0 0% 100%;
-    --card-foreground: 223 30% 9%;
-    
-    --popover: 0 0% 100%;
-    --popover-foreground: 223 30% 9%;
-    
-    /* Brand Primary - Coral */
-    --primary: var(--primary-coral);
+    --primary: 0 0% 0%;
     --primary-foreground: 0 0% 100%;
     
-    /* Secondary - Teal */
-    --secondary: var(--accent-teal);
-    --secondary-foreground: 0 0% 100%;
+    --secondary: 0 0% 95%;
+    --secondary-foreground: 0 0% 0%;
     
-    /* Muted States */
-    --muted: 210 40% 96%;
-    --muted-foreground: 215 16% 55%;
+    --accent: 0 0% 10%;
+    --accent-foreground: 0 0% 100%;
     
-    /* Accent */
-    --accent: var(--accent-teal-light);
-    --accent-foreground: 223 30% 9%;
-    
-    /* Status Colors */
     --success: 142 76% 36%;
     --success-foreground: 0 0% 100%;
     
     --warning: 38 92% 50%;
     --warning-foreground: 0 0% 100%;
     
-    --destructive: 0 84% 60%;
-    --destructive-foreground: 0 0% 100%;
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 0 0% 98%;
     
-    /* Borders & Inputs */
-    --border: 214 32% 91%;
-    --input: 214 32% 91%;
-    --ring: var(--primary-coral);
+    --muted: 0 0% 96%;
+    --muted-foreground: 0 0% 45%;
     
-    /* Design System */
-    --radius: 12px;
-    --radius-lg: 16px;
-    --radius-xl: 20px;
+    --card: 0 0% 100%;
+    --card-foreground: 0 0% 0%;
     
-    /* Gradients */
-    --gradient-hero: linear-gradient(135deg, hsl(var(--primary-coral)) 0%, hsl(var(--accent-teal)) 100%);
-    --gradient-card: linear-gradient(145deg, hsl(var(--surface)) 0%, hsl(var(--surface-secondary)) 100%);
-    --gradient-accent: linear-gradient(90deg, hsl(var(--accent-teal-light)) 0%, hsl(var(--primary-coral-light)) 100%);
+    --popover: 0 0% 100%;
+    --popover-foreground: 0 0% 0%;
     
-    /* Shadows */
-    --shadow-sm: 0 1px 2px 0 hsl(var(--foreground) / 0.05);
-    --shadow-md: 0 4px 6px -1px hsl(var(--foreground) / 0.1), 0 2px 4px -1px hsl(var(--foreground) / 0.06);
-    --shadow-lg: 0 10px 15px -3px hsl(var(--foreground) / 0.1), 0 4px 6px -2px hsl(var(--foreground) / 0.05);
-    --shadow-xl: 0 20px 25px -5px hsl(var(--foreground) / 0.1), 0 10px 10px -5px hsl(var(--foreground) / 0.04);
-    --shadow-coral: 0 10px 30px -10px hsl(var(--primary-coral) / 0.3);
-    --shadow-teal: 0 10px 30px -10px hsl(var(--accent-teal) / 0.3);
+    --border: 0 0% 90%;
+    --input: 0 0% 90%;
+    --ring: 0 0% 0%;
+    --radius: 0.5rem;
     
-    /* Typography Scale */
-    --font-size-xs: 0.75rem;
-    --font-size-sm: 0.875rem;
-    --font-size-base: 1rem;
-    --font-size-lg: 1.125rem;
-    --font-size-xl: 1.25rem;
-    --font-size-2xl: 1.5rem;
-    --font-size-3xl: 1.875rem;
-    --font-size-4xl: 2.25rem;
-    --font-size-5xl: 3rem;
-    
-    /* Spacing Scale */
-    --space-xs: 0.5rem;
-    --space-sm: 0.75rem;
-    --space-md: 1rem;
-    --space-lg: 1.5rem;
-    --space-xl: 2rem;
-    --space-2xl: 3rem;
-    --space-3xl: 4rem;
-    
-    /* Transitions */
-    --transition-fast: 150ms ease-in-out;
-    --transition-base: 200ms ease-in-out;
-    --transition-slow: 300ms ease-in-out;
-
     --sidebar-background: 0 0% 98%;
-
-    --sidebar-foreground: 240 5.3% 26.1%;
-
-    --sidebar-primary: 240 5.9% 10%;
-
+    --sidebar-foreground: 0 0% 0%;
+    --sidebar-primary: 0 0% 0%;
     --sidebar-primary-foreground: 0 0% 98%;
-
-    --sidebar-accent: 240 4.8% 95.9%;
-
-    --sidebar-accent-foreground: 240 5.9% 10%;
-
-    --sidebar-border: 220 13% 91%;
-
-    --sidebar-ring: 217.2 91.2% 59.8%;
+    --sidebar-accent: 0 0% 95%;
+    --sidebar-accent-foreground: 0 0% 0%;
+    --sidebar-border: 0 0% 90%;
+    --sidebar-ring: 0 0% 0%;
   }
 
   .dark {

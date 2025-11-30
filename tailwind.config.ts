@@ -14,7 +14,7 @@ export default {
     },
     extend: {
       fontFamily: {
-        inter: ['Inter', 'sans-serif'],
+        sans: ['Inter', 'system-ui', 'sans-serif'],
       },
       colors: {
         border: "hsl(var(--border))",
@@ -29,9 +29,6 @@ export default {
         primary: {
           DEFAULT: "hsl(var(--primary))",
           foreground: "hsl(var(--primary-foreground))",
-          coral: "hsl(var(--primary-coral))",
-          "coral-light": "hsl(var(--primary-coral-light))",
-          "coral-dark": "hsl(var(--primary-coral-dark))",
         },
         secondary: {
           DEFAULT: "hsl(var(--secondary))",
@@ -40,9 +37,6 @@ export default {
         accent: {
           DEFAULT: "hsl(var(--accent))",
           foreground: "hsl(var(--accent-foreground))",
-          teal: "hsl(var(--accent-teal))",
-          "teal-light": "hsl(var(--accent-teal-light))",
-          "teal-dark": "hsl(var(--accent-teal-dark))",
         },
         success: {
           DEFAULT: "hsl(var(--success))",
