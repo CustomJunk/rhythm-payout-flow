@@ -49,7 +49,7 @@ export const FeatureHighlightsSection = () => {
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
           {features.map((feature, index) => (
             <div key={index} className="bg-background border border-border rounded-lg p-8">
-              <div className="w-12 h-12 bg-foreground text-background rounded-lg flex items-center justify-center mb-6">
+              <div className="w-12 h-12 bg-background border-2 border-foreground text-foreground rounded-lg flex items-center justify-center mb-6">
                 <feature.icon className="w-6 h-6" />
               </div>
               <h3 className="text-xl font-bold text-foreground mb-3">
